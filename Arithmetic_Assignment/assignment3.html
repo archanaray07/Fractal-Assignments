@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Assignment3</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assignment3.css">
+</head>
+
+<body>
+
+    <div class="content-body">
+        <form>
+            <table>
+                <tr>
+                    <td><label for="first_number">First Number</label></td>
+                    <td>
+                        <input type="text" name="first_number" id="first_number" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="second_number">Second Number</label></td>
+                    <td>
+                        <input type="text" name="second_number" id="second_number" required />
+                    </td>
+                </tr>
+
+            </table>
+
+            <input type="button" name="add_btn" value="Add" onclick="validation('add')" />
+            <input type="button" name="sub_btn" value="Sub" onclick="validation('sub')" />
+            <input type="button" name="multiply_btn" value="Multiply" onclick="validation('multiply')" />
+
+        </form>
+        <div id="result_container" style="margin:20px;width:400px;height:30px;border:1px solid #000;"></div>
+    </div>
+</body>
+
+
+<script src="assignment3.js" async defer></script>
+</body>
+
+</html>
