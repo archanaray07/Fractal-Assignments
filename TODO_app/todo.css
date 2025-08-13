@@ -1,0 +1,84 @@
+body{
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container{
+    width: 600px;
+    background-color: black;
+    border: 2px solid black;
+    padding: 20px;
+    
+}
+
+.upper_box{
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;    
+}
+
+.task_row{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.task_container{
+    width: 350px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+#add_button{
+    background-color: black;
+    padding: 8px 16px;
+    font-size: 16px;
+    color: white;
+
+}
+
+.lower_box{
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+ol{
+    padding-left: 20px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    border-bottom: 1px solid #ccc;
+}
+
+li.done{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.button{
+    padding:6px 10px;
+    margin-left:5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.remove_button{
+    background-color: red;
+    color: white;
+}
+
+.done_button{
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ToDo List</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="todo.css">
+    </head>
+    <body> 
+       <div class="container">
+        <div class="upper_box">
+            <h2>Add Task</h2>
+            <div class="task_row">
+                <h2>Task Name</h2>
+            <input type="text" id="taskInput" class="task_container">
+            </div>
+
+            <button id="add_button">Add</button>
+        </div>
+
+
+        <div class="lower_box">
+        <ol id="taskList" class="taskli"></ol>
+        </div>
+       </div>
+        
+        <script src="todo.js" async defer></script>
+    </body>
+</html>

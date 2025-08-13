@@ -1,0 +1,76 @@
+body{
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.header{
+  text-align: center;
+}
+.form-wrapper {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+.form-container {
+  width: 450px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+label {
+  width: 120px; 
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.full-width input[type="button"] {
+  width: 100%;             /* Makes the button take full width of its parent */
+  padding: 14px 0;         /* Increases vertical height */
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type="reset"]{
+  text-align: right;
+}
+
+.thanks-container{
+    background-color: lightgreen;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0 , 0 ,0.1);
+    text-align: 400px;
+    max-width: 400px;
+    width:100%;
+}
